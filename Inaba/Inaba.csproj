@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <RootNamespace>Inaba</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Inaba.CPK\Inaba.CPK.csproj" />
+      <ProjectReference Include="..\Inaba.Huffman\Inaba.Huffman.csproj" />
+      <ProjectReference Include="..\Inaba.PAC\Inaba.PAC.csproj" />
+    </ItemGroup>
+
+</Project>
